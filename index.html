@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhruvil Patel</title>
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- External Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Patel <span>Dhruvil</span>
+            </div>
+            <div class="links">
+                <a href="#" onclick="refreshPage()" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">Home</a>
+                <a href="#about" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">About Me</a>
+                <a href="#contact" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">Contact Me</a>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#" onclick="refreshPage()">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#contact">Contact Me</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    
+    
+    
+
+    <!-- Main Section -->
+    <section>
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="main.png" alt="Profile Image">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">
+                    Hey, I'm <span>Dhruvil</span>
+                </h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+                    I'm a <span class="typewriter-text"></span><label>|</label>
+                </div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">
+                    I am a passionate and detail-oriented IT professional with a strong foundation in Computer Information Technology and a knack for problem-solving. Currently in my senior year at California State University, Northridge, I’ve honed my skills through academic projects and hands-on experience in IT systems, cloud technologies, and web development. I thrive in collaborative environments and love turning challenges into opportunities for innovation.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <i class="fa-solid fa-code"></i>
+                <p>Coding</p>
+            </div>
+            <div class="skill">
+                <i class="fa-solid fa-comments"></i>
+                <p>Communication</p>
+            </div>
+            <div class="skill">
+                <i class="fa-solid fa-tools"></i>
+                <p>Troubleshooting</p>
+            </div>
+            <div class="skill">
+                <i class="fa-solid fa-lightbulb"></i>
+                <p>Problem Solving</p>
+            </div>
+            <div class="skill">
+                <i class="fa-solid fa-clock"></i>
+                <p>Time Management</p>
+            </div>
+            <div class="skill">
+                <i class="fa-brands fa-aws"></i>
+                <p>AWS</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Me Section -->
+    <section class="about-me-section" id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <p>
+                Hello! I'm Dhruvil Patel, a passionate IT professional specializing in web development, cloud technologies, and system design. Currently in my senior year at California State University, Northridge, I'm constantly honing my skills and embracing new challenges.
+            </p>
+            <p>
+                <strong>Interests:</strong> I am very interested in exploring cutting-edge technology, understanding property management in real estate, and traveling the world.
+            </p>
+            <p>
+                <strong>Hobbies:</strong> My hobbies consist of golfing, watching sports, hiking, and experimenting with photography.
+            </p>
+            <p>
+                <strong>Goals:</strong> I am very passionate about innovative solutions that make a difference in the tech industry while continuing to grow as a It professional.
+                <p>
+                - Finishing my B.S. in Computer Information Technology.
+                <p>
+
+                <p>
+                    - Pass the Comptia A+ in Febuary/March 2025
+                <p>
+                  
+                <p>   
+                - Land an Entry Level Job in IT
+
+                <p>
+            </p>
+        </div>
+    </section>
+    
+    <!-- Footer-->
+    <footer id="contact" class="contact-footer">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:dhruvil@example.com">pateldhruvil90@yahoo.com</a></p>
+    </footer>
+       
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 0 });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
